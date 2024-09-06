@@ -8,7 +8,7 @@ from langchain_community.callbacks.streamlit import StreamlitCallbackHandler
 from langchain.prompts import ChatPromptTemplate
 from langchain_community.tools import WikipediaQueryRun
 from langchain_community.utilities import WikipediaAPIWrapper
-from langchain_experimental.tools.python.too import PythonREPLTool
+from langchain_experimental.tools.python.tool import PythonREPLTool
 from langchain_community.utilities import ArxivAPIWrapper
 
 
